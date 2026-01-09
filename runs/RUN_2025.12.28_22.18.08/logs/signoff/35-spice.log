@@ -1,0 +1,754 @@
+
+Magic 8.3 revision 413 - Compiled on Wed Jul 12 10:04:40 UTC 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.493-0-g0fe599b
+Reading LEF data from file /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef.
+This action cannot be undone.
+LEF read, Line 82 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 83 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 116 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 118 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 119 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 125 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 126 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 127 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 160 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 168 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 169 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 171 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 172 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 173 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 210 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 211 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 213 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 214 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 215 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 252 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 253 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 255 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 256 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 257 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 294 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 295 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 801 lines.
+Reading DEF data from file /openlane/designs/riscvcpu/runs/RUN_2025.12.28_22.18.08/results/routing/top.def.
+This action cannot be undone.
+  Processed 4 vias total.
+Cell sky130_fd_sc_hd__diode_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_3 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__fill_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_ef_sc_hd__decap_12 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_6 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_8 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__fill_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__inv_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and2b_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand4_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a311oi_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand4b_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor3_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and2_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21oi_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2b_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221a_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_8 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_8 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_6 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211ai_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21a_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ai_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_12 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a31o_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux4_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux2_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211a_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211o_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_16 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211oi_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21o_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211a_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31a_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221ai_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3b_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkinv_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__inv_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o311ai_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211a_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21oi_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2bb2a_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221a_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211o_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__inv_6 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221ai_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o311ai_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ba_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211ai_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22ai_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o311a_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3b_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a31oi_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2b_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a31oi_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2_8 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a31o_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand4_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ai_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22ai_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a41o_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21bai_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3b_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221ai_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211oi_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211ai_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor4_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux4_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o311ai_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2bb2ai_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ai_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o311a_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a32o_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand4_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand4b_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and4_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31ai_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2b_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2bb2ai_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xor2_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221a_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22ai_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a31oi_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31ai_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21oi_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2111a_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21a_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31ai_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor4_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a22oi_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a221o_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a22oi_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2bb2oi_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21a_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2111ai_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21bai_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211oi_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21bai_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor3b_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a41oi_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22a_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2111o_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and4_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o32ai_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor3_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2b_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a221oi_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a311o_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o311a_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor4_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21boi_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4b_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2bb2ai_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3b_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o32a_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21boi_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2111a_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o41a_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3b_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2bb2oi_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a221oi_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and2_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and4bb_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2_8 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o32ai_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22a_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31a_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21bo_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2bb2o_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2bb2o_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21o_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a31o_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and4b_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkinv_8 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xnor2_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xnor2_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2bb2oi_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xor2_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a22o_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xor2_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31a_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux2_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xnor2_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4bb_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21o_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a22oi_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a221oi_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o32ai_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22a_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4bb_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2bb2a_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4b_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux2_8 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux2_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4b_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o32a_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and4b_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4bb_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3b_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor3b_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a311o_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor4b_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dfxtp_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dfxtp_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dfxtp_2 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dfrtp_4 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dlygate4sd3_1 read from path /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+  Processed 28301 subcell instances total.
+  Processed 165 pins total.
+  Processed 2 special nets total.
+  Processed 8340 nets total.
+DEF read: Processed 198078 lines.
+Moving label "DataAdr[11]" from metal2 to via2 in cell top.
+Moving label "DataAdr[31]" from metal2 to via2 in cell top.
+Moving label "PC[20]" from metal3 to via3 in cell top.
+Moving label "WriteData[30]" from metal1 to viali in cell top.
+Moving label "_00032_" from metal1 to via1 in cell top.
+Moving label "_00037_" from metal1 to via1 in cell top.
+Moving label "_00039_" from metal1 to via1 in cell top.
+Moving label "_00040_" from metal1 to via1 in cell top.
+Moving label "_00048_" from metal1 to via1 in cell top.
+Moving label "_00052_" from metal1 to via1 in cell top.
+Moving label "_00064_" from metal1 to via1 in cell top.
+Moving label "_00073_" from metal1 to via1 in cell top.
+Moving label "_00075_" from metal1 to via1 in cell top.
+Moving label "_00079_" from metal1 to via1 in cell top.
+Moving label "_00090_" from metal1 to via1 in cell top.
+Moving label "_00103_" from metal1 to via1 in cell top.
+Moving label "_00120_" from metal1 to via1 in cell top.
+Moving label "_00125_" from metal1 to via1 in cell top.
+Moving label "_00129_" from metal1 to viali in cell top.
+Moving label "_00136_" from metal1 to via1 in cell top.
+Moving label "_00147_" from metal1 to via1 in cell top.
+Moving label "_00148_" from metal1 to via1 in cell top.
+Moving label "_00152_" from metal1 to via1 in cell top.
+Moving label "_00153_" from metal1 to via1 in cell top.
+Moving label "_00171_" from metal1 to via1 in cell top.
+Moving label "_00173_" from metal1 to via1 in cell top.
+Moving label "_00180_" from metal1 to via1 in cell top.
+Moving label "_00182_" from metal1 to via1 in cell top.
+Moving label "_00195_" from metal1 to via1 in cell top.
+Moving label "_00206_" from metal1 to via1 in cell top.
+Moving label "_00212_" from metal1 to via1 in cell top.
+Moving label "_00216_" from metal1 to via1 in cell top.
+Moving label "_00224_" from metal1 to via1 in cell top.
+Moving label "_00225_" from metal1 to via1 in cell top.
+Moving label "_00236_" from metal1 to via1 in cell top.
+Moving label "_00248_" from metal1 to via1 in cell top.
+Moving label "_00249_" from metal1 to via1 in cell top.
+Moving label "_00261_" from metal1 to via1 in cell top.
+Moving label "_00264_" from metal1 to via1 in cell top.
+Moving label "_00267_" from metal1 to via1 in cell top.
+Moving label "_00294_" from metal1 to via1 in cell top.
+Moving label "_00302_" from metal1 to via1 in cell top.
+Moving label "_00307_" from metal1 to via1 in cell top.
+Moving label "_00308_" from metal1 to via1 in cell top.
+Moving label "_00312_" from metal1 to via1 in cell top.
+Moving label "_00313_" from metal1 to via1 in cell top.
+Moving label "_00327_" from metal1 to via1 in cell top.
+Moving label "_00334_" from metal1 to via1 in cell top.
+Moving label "_00335_" from metal1 to via1 in cell top.
+Moving label "_00340_" from metal1 to via1 in cell top.
+Moving label "_00342_" from metal1 to viali in cell top.
+Moving label "_00344_" from metal1 to via1 in cell top.
+Moving label "_00350_" from metal1 to via1 in cell top.
+Moving label "_00354_" from metal1 to via1 in cell top.
+Moving label "_00359_" from metal1 to via1 in cell top.
+Moving label "_00368_" from metal1 to via1 in cell top.
+Moving label "_00374_" from metal1 to via1 in cell top.
+Moving label "_00388_" from metal1 to via1 in cell top.
+Moving label "_00398_" from metal1 to via1 in cell top.
+Moving label "_00402_" from metal1 to via1 in cell top.
+Moving label "_00409_" from metal1 to via1 in cell top.
+Moving label "_00410_" from metal1 to via1 in cell top.
+Moving label "_00413_" from metal1 to via1 in cell top.
+Moving label "_00417_" from metal1 to via1 in cell top.
+Moving label "_00418_" from metal1 to via1 in cell top.
+Moving label "_00434_" from metal1 to via1 in cell top.
+Moving label "_00442_" from metal1 to via1 in cell top.
+Moving label "_00446_" from metal1 to via1 in cell top.
+Moving label "_00447_" from metal1 to via1 in cell top.
+Moving label "_00448_" from metal1 to via1 in cell top.
+Moving label "_00451_" from metal1 to via1 in cell top.
+Moving label "_00456_" from metal1 to via1 in cell top.
+Moving label "_00457_" from metal1 to via1 in cell top.
+Moving label "_00484_" from metal1 to via1 in cell top.
+Moving label "_00511_" from metal1 to via1 in cell top.
+Moving label "_00514_" from metal1 to via1 in cell top.
+Moving label "_00516_" from metal1 to via1 in cell top.
+Moving label "_00517_" from metal1 to via1 in cell top.
+Moving label "_00523_" from metal1 to viali in cell top.
+Moving label "_00536_" from metal1 to via1 in cell top.
+Moving label "_00537_" from metal1 to via1 in cell top.
+Moving label "_00546_" from metal1 to via1 in cell top.
+Moving label "_00548_" from metal1 to via1 in cell top.
+Moving label "_00558_" from metal1 to via1 in cell top.
+Moving label "_00562_" from metal1 to via1 in cell top.
+Moving label "_00578_" from metal1 to via1 in cell top.
+Moving label "_00580_" from metal1 to via1 in cell top.
+Moving label "_00582_" from metal1 to via1 in cell top.
+Moving label "_00600_" from metal2 to via1 in cell top.
+Moving label "_00607_" from metal1 to via1 in cell top.
+Moving label "_00612_" from metal1 to via1 in cell top.
+Moving label "_00616_" from metal1 to via1 in cell top.
+Moving label "_00628_" from metal1 to via1 in cell top.
+Moving label "_00632_" from metal1 to via1 in cell top.
+Moving label "_00633_" from metal1 to via1 in cell top.
+Moving label "_00634_" from metal1 to via1 in cell top.
+Moving label "_00635_" from metal1 to via1 in cell top.
+Moving label "_00640_" from metal1 to via1 in cell top.
+Moving label "_00644_" from metal1 to via1 in cell top.
+Moving label "_00649_" from metal1 to via1 in cell top.
+Moving label "_00652_" from metal1 to via1 in cell top.
+Moving label "_00655_" from metal1 to via1 in cell top.
+Moving label "_00660_" from metal1 to via1 in cell top.
+Moving label "_00662_" from metal1 to via1 in cell top.
+Moving label "_00669_" from metal1 to via1 in cell top.
+Moving label "_00670_" from metal1 to via1 in cell top.
+Moving label "_00671_" from metal1 to via1 in cell top.
+Moving label "_00681_" from metal2 to via2 in cell top.
+Moving label "_00688_" from metal1 to via1 in cell top.
+Moving label "_00695_" from metal1 to viali in cell top.
+Moving label "_00700_" from metal1 to via1 in cell top.
+Moving label "_00708_" from metal1 to via1 in cell top.
+Moving label "_00723_" from metal1 to via1 in cell top.
+Moving label "_00733_" from metal1 to via1 in cell top.
+Moving label "_00736_" from metal1 to via1 in cell top.
+Moving label "_00740_" from metal1 to via1 in cell top.
+Moving label "_00745_" from metal1 to via1 in cell top.
+Moving label "_00749_" from metal1 to via1 in cell top.
+Moving label "_00766_" from metal1 to via1 in cell top.
+Moving label "_00767_" from metal1 to via1 in cell top.
+Moving label "_00771_" from metal1 to via1 in cell top.
+Moving label "_00778_" from metal1 to via1 in cell top.
+Moving label "_00799_" from metal1 to via1 in cell top.
+Moving label "_00812_" from metal1 to via1 in cell top.
+Moving label "_00813_" from metal1 to via1 in cell top.
+Moving label "_00817_" from metal1 to viali in cell top.
+Moving label "_00820_" from metal1 to via1 in cell top.
+Moving label "_00856_" from metal1 to via1 in cell top.
+Moving label "_00864_" from metal1 to via1 in cell top.
+Moving label "_00866_" from metal1 to via1 in cell top.
+Moving label "_00867_" from metal1 to via1 in cell top.
+Moving label "_00871_" from metal1 to via1 in cell top.
+Moving label "_00877_" from metal1 to via1 in cell top.
+Moving label "_00878_" from metal1 to via1 in cell top.
+Moving label "_00883_" from metal1 to via1 in cell top.
+Moving label "_00888_" from metal1 to via1 in cell top.
+Moving label "_00890_" from metal1 to via1 in cell top.
+Moving label "_00891_" from metal1 to via1 in cell top.
+Moving label "_00897_" from metal1 to via1 in cell top.
+Moving label "_00903_" from metal1 to viali in cell top.
+Moving label "_00906_" from metal1 to via1 in cell top.
+Moving label "_00919_" from metal1 to via1 in cell top.
+Moving label "_00925_" from metal1 to via1 in cell top.
+Moving label "_00926_" from metal1 to via1 in cell top.
+Moving label "_00930_" from metal1 to via1 in cell top.
+Moving label "_00932_" from metal1 to via1 in cell top.
+Moving label "_00933_" from metal1 to via1 in cell top.
+Moving label "_00934_" from metal1 to via1 in cell top.
+Moving label "_00936_" from metal1 to via1 in cell top.
+Moving label "_00949_" from metal1 to via1 in cell top.
+Moving label "_00962_" from metal1 to via1 in cell top.
+Moving label "_00977_" from metal1 to via1 in cell top.
+Moving label "_00978_" from metal1 to via1 in cell top.
+Moving label "_00989_" from metal1 to via1 in cell top.
+Moving label "_01001_" from metal1 to via1 in cell top.
+Moving label "_01006_" from metal1 to via1 in cell top.
+Moving label "_01008_" from metal1 to via1 in cell top.
+Moving label "_01009_" from metal1 to via1 in cell top.
+Moving label "_01011_" from metal1 to via1 in cell top.
+Moving label "_01013_" from metal1 to via1 in cell top.
+Moving label "_01025_" from metal1 to via1 in cell top.
+Moving label "_01045_" from metal1 to via1 in cell top.
+Moving label "_01051_" from metal1 to via1 in cell top.
+Moving label "_01138_" from metal3 to via3 in cell top.
+Moving label "_01155_" from metal1 to via1 in cell top.
+Moving label "_01172_" from metal2 to via2 in cell top.
+Moving label "_01201_" from metal2 to via2 in cell top.
+Moving label "_01202_" from metal2 to via2 in cell top.
+Moving label "_01257_" from metal2 to via2 in cell top.
+Moving label "_01298_" from metal2 to via1 in cell top.
+Moving label "_01316_" from metal2 to via2 in cell top.
+Moving label "_01330_" from metal2 to via2 in cell top.
+Moving label "_01349_" from metal2 to via2 in cell top.
+Moving label "_01380_" from metal2 to via2 in cell top.
+Moving label "_01482_" from metal1 to via1 in cell top.
+Moving label "_01559_" from metal2 to via2 in cell top.
+Moving label "_01561_" from metal2 to via1 in cell top.
+Moving label "_01597_" from metal1 to via1 in cell top.
+Moving label "_01699_" from metal3 to via3 in cell top.
+Moving label "_01702_" from metal2 to via2 in cell top.
+Moving label "_01751_" from metal1 to viali in cell top.
+Moving label "_01856_" from metal2 to via2 in cell top.
+Moving label "_01942_" from metal2 to via2 in cell top.
+Moving label "_01955_" from metal1 to viali in cell top.
+Moving label "_01975_" from metal1 to viali in cell top.
+Moving label "_01985_" from metal2 to via2 in cell top.
+Moving label "_02029_" from metal2 to via2 in cell top.
+Moving label "_02041_" from metal2 to via2 in cell top.
+Moving label "_02126_" from metal2 to via2 in cell top.
+Moving label "_02150_" from metal2 to via2 in cell top.
+Moving label "_02194_" from metal1 to viali in cell top.
+Moving label "_02212_" from metal2 to via2 in cell top.
+Moving label "_02234_" from metal2 to via2 in cell top.
+Moving label "_02241_" from metal1 to viali in cell top.
+Moving label "_02243_" from metal1 to via1 in cell top.
+Moving label "_02270_" from metal1 to via1 in cell top.
+Moving label "_02279_" from metal1 to viali in cell top.
+Moving label "_02288_" from metal3 to via2 in cell top.
+Moving label "_02602_" from metal2 to via1 in cell top.
+Moving label "_02604_" from metal1 to viali in cell top.
+Moving label "_02670_" from metal1 to viali in cell top.
+Moving label "_02749_" from metal1 to viali in cell top.
+Moving label "_02761_" from metal2 to via2 in cell top.
+Moving label "_02819_" from metal2 to via2 in cell top.
+Moving label "_02828_" from metal1 to viali in cell top.
+Moving label "_02830_" from metal1 to viali in cell top.
+Moving label "_02839_" from metal2 to via2 in cell top.
+Moving label "_02847_" from metal2 to via2 in cell top.
+Moving label "_02859_" from metal2 to via2 in cell top.
+Moving label "_02939_" from metal2 to via2 in cell top.
+Moving label "_02952_" from metal1 to viali in cell top.
+Moving label "_02962_" from metal2 to via2 in cell top.
+Moving label "_02984_" from metal1 to viali in cell top.
+Moving label "_03053_" from metal1 to via1 in cell top.
+Moving label "_03139_" from metal2 to via2 in cell top.
+Moving label "_03169_" from metal1 to viali in cell top.
+Moving label "_03197_" from metal1 to via1 in cell top.
+Moving label "_03264_" from metal1 to via1 in cell top.
+Moving label "_03280_" from metal2 to via2 in cell top.
+Moving label "_03317_" from metal1 to viali in cell top.
+Moving label "_03453_" from metal2 to via2 in cell top.
+Moving label "_03563_" from metal2 to via2 in cell top.
+Moving label "_03573_" from metal2 to via2 in cell top.
+Moving label "_03586_" from metal2 to via2 in cell top.
+Moving label "_03612_" from metal1 to viali in cell top.
+Moving label "_03643_" from metal2 to via2 in cell top.
+Moving label "_03665_" from metal1 to viali in cell top.
+Moving label "_03673_" from metal2 to via2 in cell top.
+Moving label "_03684_" from metal2 to via2 in cell top.
+Moving label "_03687_" from metal1 to viali in cell top.
+Moving label "_03702_" from metal1 to viali in cell top.
+Moving label "_03730_" from metal1 to viali in cell top.
+Moving label "_03759_" from metal3 to via3 in cell top.
+Moving label "_03786_" from metal2 to via2 in cell top.
+Moving label "_03932_" from metal1 to viali in cell top.
+Moving label "_04080_" from metal1 to viali in cell top.
+Moving label "_04115_" from metal1 to via1 in cell top.
+Moving label "_04141_" from metal2 to via2 in cell top.
+Moving label "_04142_" from metal2 to via2 in cell top.
+Moving label "_04155_" from metal1 to viali in cell top.
+Moving label "_04210_" from metal3 to via3 in cell top.
+Moving label "_04218_" from metal1 to via1 in cell top.
+Moving label "_04361_" from metal3 to via3 in cell top.
+Moving label "_04379_" from metal2 to via2 in cell top.
+Moving label "_04383_" from metal2 to via2 in cell top.
+Moving label "_04385_" from metal2 to via2 in cell top.
+Moving label "_04392_" from metal3 to via3 in cell top.
+Moving label "_04394_" from metal2 to via2 in cell top.
+Moving label "_04405_" from metal1 to viali in cell top.
+Moving label "_04484_" from metal2 to via1 in cell top.
+Moving label "_04684_" from metal2 to via2 in cell top.
+Moving label "_04694_" from metal1 to via1 in cell top.
+Moving label "_04800_" from metal2 to via2 in cell top.
+Moving label "_04823_" from metal2 to via2 in cell top.
+Moving label "_04941_" from metal2 to via1 in cell top.
+Moving label "_04959_" from metal1 to via1 in cell top.
+Moving label "_05005_" from metal1 to via1 in cell top.
+Moving label "_05064_" from metal1 to viali in cell top.
+Moving label "_05163_" from metal1 to viali in cell top.
+Moving label "_05166_" from metal1 to via1 in cell top.
+Moving label "_05255_" from metal1 to viali in cell top.
+Moving label "_05281_" from metal1 to viali in cell top.
+Moving label "_05296_" from metal1 to via1 in cell top.
+Moving label "_05315_" from metal2 to via2 in cell top.
+Moving label "_05320_" from metal2 to via2 in cell top.
+Moving label "_05322_" from metal2 to via1 in cell top.
+Moving label "_05355_" from metal1 to viali in cell top.
+Moving label "_05604_" from metal2 to via2 in cell top.
+Moving label "_05657_" from metal3 to via3 in cell top.
+Moving label "_05670_" from metal1 to viali in cell top.
+Moving label "_05872_" from metal1 to viali in cell top.
+Moving label "_05983_" from metal2 to via2 in cell top.
+Moving label "_06074_" from metal2 to via2 in cell top.
+Moving label "clknet_4_1_0_clk" from metal2 to via2 in cell top.
+Moving label "clknet_leaf_59_clk" from metal2 to via2 in cell top.
+Moving label "net112" from metal1 to viali in cell top.
+Moving label "net194" from metal1 to viali in cell top.
+Moving label "net200" from metal1 to viali in cell top.
+Moving label "net300" from metal1 to viali in cell top.
+Moving label "net304" from metal1 to viali in cell top.
+Moving label "rvsingle.dp.rf.rf\[0\]\[3\]" from metal2 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[10\]\[16\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[10\]\[22\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[10\]\[27\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[10\]\[30\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[11\]\[21\]" from metal2 to via2 in cell top.
+Moving label "rvsingle.dp.rf.rf\[11\]\[25\]" from metal2 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[14\]\[22\]" from metal1 to viali in cell top.
+Moving label "rvsingle.dp.rf.rf\[14\]\[5\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[16\]\[1\]" from metal2 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[18\]\[19\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[19\]\[26\]" from metal2 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[22\]\[10\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[22\]\[16\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[22\]\[23\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[22\]\[25\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[22\]\[26\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[23\]\[27\]" from metal2 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[26\]\[15\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[26\]\[25\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[26\]\[9\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[27\]\[17\]" from metal2 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[28\]\[29\]" from metal2 to via2 in cell top.
+Moving label "rvsingle.dp.rf.rf\[30\]\[24\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[30\]\[2\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[6\]\[15\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[6\]\[25\]" from metal1 to via1 in cell top.
+Moving label "rvsingle.dp.rf.rf\[6\]\[29\]" from metal1 to via1 in cell top.
+Processing top
+Extracting sky130_ef_sc_hd__decap_12 into sky130_ef_sc_hd__decap_12.ext:
+Extracting sky130_fd_sc_hd__decap_3 into sky130_fd_sc_hd__decap_3.ext:
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+Extracting sky130_fd_sc_hd__decap_8 into sky130_fd_sc_hd__decap_8.ext:
+Extracting sky130_fd_sc_hd__clkbuf_4 into sky130_fd_sc_hd__clkbuf_4.ext:
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
+Extracting sky130_fd_sc_hd__diode_2 into sky130_fd_sc_hd__diode_2.ext:
+Extracting sky130_fd_sc_hd__decap_6 into sky130_fd_sc_hd__decap_6.ext:
+Extracting sky130_fd_sc_hd__dfxtp_1 into sky130_fd_sc_hd__dfxtp_1.ext:
+Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
+Extracting sky130_fd_sc_hd__clkbuf_1 into sky130_fd_sc_hd__clkbuf_1.ext:
+Extracting sky130_fd_sc_hd__dfxtp_2 into sky130_fd_sc_hd__dfxtp_2.ext:
+Extracting sky130_fd_sc_hd__mux2_1 into sky130_fd_sc_hd__mux2_1.ext:
+Extracting sky130_fd_sc_hd__dlygate4sd3_1 into sky130_fd_sc_hd__dlygate4sd3_1.ext:
+Extracting sky130_fd_sc_hd__buf_12 into sky130_fd_sc_hd__buf_12.ext:
+Extracting sky130_fd_sc_hd__clkbuf_16 into sky130_fd_sc_hd__clkbuf_16.ext:
+Extracting sky130_fd_sc_hd__inv_2 into sky130_fd_sc_hd__inv_2.ext:
+Extracting sky130_fd_sc_hd__buf_2 into sky130_fd_sc_hd__buf_2.ext:
+Extracting sky130_fd_sc_hd__clkbuf_2 into sky130_fd_sc_hd__clkbuf_2.ext:
+Extracting sky130_fd_sc_hd__inv_4 into sky130_fd_sc_hd__inv_4.ext:
+Extracting sky130_fd_sc_hd__nor2_1 into sky130_fd_sc_hd__nor2_1.ext:
+Extracting sky130_fd_sc_hd__mux4_1 into sky130_fd_sc_hd__mux4_1.ext:
+Extracting sky130_fd_sc_hd__o21a_1 into sky130_fd_sc_hd__o21a_1.ext:
+Extracting sky130_fd_sc_hd__or2b_1 into sky130_fd_sc_hd__or2b_1.ext:
+Extracting sky130_fd_sc_hd__o211ai_1 into sky130_fd_sc_hd__o211ai_1.ext:
+Extracting sky130_fd_sc_hd__or2_1 into sky130_fd_sc_hd__or2_1.ext:
+Extracting sky130_fd_sc_hd__o211a_1 into sky130_fd_sc_hd__o211a_1.ext:
+Extracting sky130_fd_sc_hd__o21ai_1 into sky130_fd_sc_hd__o21ai_1.ext:
+Extracting sky130_fd_sc_hd__o211ai_2 into sky130_fd_sc_hd__o211ai_2.ext:
+Extracting sky130_fd_sc_hd__and2b_1 into sky130_fd_sc_hd__and2b_1.ext:
+Extracting sky130_fd_sc_hd__o311ai_1 into sky130_fd_sc_hd__o311ai_1.ext:
+Extracting sky130_fd_sc_hd__buf_4 into sky130_fd_sc_hd__buf_4.ext:
+Extracting sky130_fd_sc_hd__a21oi_1 into sky130_fd_sc_hd__a21oi_1.ext:
+Extracting sky130_fd_sc_hd__a31o_1 into sky130_fd_sc_hd__a31o_1.ext:
+Extracting sky130_fd_sc_hd__a211o_1 into sky130_fd_sc_hd__a211o_1.ext:
+Extracting sky130_fd_sc_hd__a211oi_1 into sky130_fd_sc_hd__a211oi_1.ext:
+Extracting sky130_fd_sc_hd__o32ai_2 into sky130_fd_sc_hd__o32ai_2.ext:
+Extracting sky130_fd_sc_hd__buf_8 into sky130_fd_sc_hd__buf_8.ext:
+Extracting sky130_fd_sc_hd__o2bb2ai_1 into sky130_fd_sc_hd__o2bb2ai_1.ext:
+Extracting sky130_fd_sc_hd__a21o_1 into sky130_fd_sc_hd__a21o_1.ext:
+Extracting sky130_fd_sc_hd__o21ai_4 into sky130_fd_sc_hd__o21ai_4.ext:
+Extracting sky130_fd_sc_hd__o221ai_1 into sky130_fd_sc_hd__o221ai_1.ext:
+Extracting sky130_fd_sc_hd__nand2_1 into sky130_fd_sc_hd__nand2_1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_8 into sky130_fd_sc_hd__clkbuf_8.ext:
+Extracting sky130_fd_sc_hd__o21ba_1 into sky130_fd_sc_hd__o21ba_1.ext:
+Extracting sky130_fd_sc_hd__a211oi_2 into sky130_fd_sc_hd__a211oi_2.ext:
+Extracting sky130_fd_sc_hd__o21bai_1 into sky130_fd_sc_hd__o21bai_1.ext:
+Extracting sky130_fd_sc_hd__nand3_1 into sky130_fd_sc_hd__nand3_1.ext:
+Extracting sky130_fd_sc_hd__o221ai_4 into sky130_fd_sc_hd__o221ai_4.ext:
+Extracting sky130_fd_sc_hd__o311ai_4 into sky130_fd_sc_hd__o311ai_4.ext:
+Extracting sky130_fd_sc_hd__o211ai_4 into sky130_fd_sc_hd__o211ai_4.ext:
+Extracting sky130_fd_sc_hd__a31oi_1 into sky130_fd_sc_hd__a31oi_1.ext:
+Extracting sky130_fd_sc_hd__nand3_2 into sky130_fd_sc_hd__nand3_2.ext:
+Extracting sky130_fd_sc_hd__and3_1 into sky130_fd_sc_hd__and3_1.ext:
+Extracting sky130_fd_sc_hd__buf_6 into sky130_fd_sc_hd__buf_6.ext:
+Extracting sky130_fd_sc_hd__o2bb2a_1 into sky130_fd_sc_hd__o2bb2a_1.ext:
+Extracting sky130_fd_sc_hd__nand3_4 into sky130_fd_sc_hd__nand3_4.ext:
+Extracting sky130_fd_sc_hd__o221a_1 into sky130_fd_sc_hd__o221a_1.ext:
+Extracting sky130_fd_sc_hd__a31o_2 into sky130_fd_sc_hd__a31o_2.ext:
+Extracting sky130_fd_sc_hd__o31ai_1 into sky130_fd_sc_hd__o31ai_1.ext:
+Extracting sky130_fd_sc_hd__o211a_4 into sky130_fd_sc_hd__o211a_4.ext:
+Extracting sky130_fd_sc_hd__mux4_2 into sky130_fd_sc_hd__mux4_2.ext:
+Extracting sky130_fd_sc_hd__a311o_1 into sky130_fd_sc_hd__a311o_1.ext:
+Extracting sky130_fd_sc_hd__o311ai_2 into sky130_fd_sc_hd__o311ai_2.ext:
+Extracting sky130_fd_sc_hd__and3_2 into sky130_fd_sc_hd__and3_2.ext:
+Extracting sky130_fd_sc_hd__o21ai_2 into sky130_fd_sc_hd__o21ai_2.ext:
+Extracting sky130_fd_sc_hd__o221ai_2 into sky130_fd_sc_hd__o221ai_2.ext:
+Extracting sky130_fd_sc_hd__or3_1 into sky130_fd_sc_hd__or3_1.ext:
+Extracting sky130_fd_sc_hd__o2bb2ai_2 into sky130_fd_sc_hd__o2bb2ai_2.ext:
+Extracting sky130_fd_sc_hd__a32o_1 into sky130_fd_sc_hd__a32o_1.ext:
+Extracting sky130_fd_sc_hd__a2bb2o_1 into sky130_fd_sc_hd__a2bb2o_1.ext:
+Extracting sky130_fd_sc_hd__a221oi_1 into sky130_fd_sc_hd__a221oi_1.ext:
+Extracting sky130_fd_sc_hd__o311a_2 into sky130_fd_sc_hd__o311a_2.ext:
+Extracting sky130_fd_sc_hd__a22o_1 into sky130_fd_sc_hd__a22o_1.ext:
+Extracting sky130_fd_sc_hd__and2_1 into sky130_fd_sc_hd__and2_1.ext:
+Extracting sky130_fd_sc_hd__o311a_1 into sky130_fd_sc_hd__o311a_1.ext:
+Extracting sky130_fd_sc_hd__o31ai_2 into sky130_fd_sc_hd__o31ai_2.ext:
+Extracting sky130_fd_sc_hd__or3_2 into sky130_fd_sc_hd__or3_2.ext:
+Extracting sky130_fd_sc_hd__buf_1 into sky130_fd_sc_hd__buf_1.ext:
+Extracting sky130_fd_sc_hd__and4_1 into sky130_fd_sc_hd__and4_1.ext:
+Extracting sky130_fd_sc_hd__a41o_1 into sky130_fd_sc_hd__a41o_1.ext:
+Extracting sky130_fd_sc_hd__o22a_1 into sky130_fd_sc_hd__o22a_1.ext:
+Extracting sky130_fd_sc_hd__nand4_1 into sky130_fd_sc_hd__nand4_1.ext:
+Extracting sky130_fd_sc_hd__nand4_2 into sky130_fd_sc_hd__nand4_2.ext:
+Extracting sky130_fd_sc_hd__a21oi_2 into sky130_fd_sc_hd__a21oi_2.ext:
+Extracting sky130_fd_sc_hd__o22ai_2 into sky130_fd_sc_hd__o22ai_2.ext:
+Extracting sky130_fd_sc_hd__o41a_1 into sky130_fd_sc_hd__o41a_1.ext:
+Extracting sky130_fd_sc_hd__o221a_2 into sky130_fd_sc_hd__o221a_2.ext:
+Extracting sky130_fd_sc_hd__nor4_4 into sky130_fd_sc_hd__nor4_4.ext:
+Extracting sky130_fd_sc_hd__o32ai_1 into sky130_fd_sc_hd__o32ai_1.ext:
+Extracting sky130_fd_sc_hd__o22a_2 into sky130_fd_sc_hd__o22a_2.ext:
+Extracting sky130_fd_sc_hd__o311a_4 into sky130_fd_sc_hd__o311a_4.ext:
+Extracting sky130_fd_sc_hd__o22ai_1 into sky130_fd_sc_hd__o22ai_1.ext:
+Extracting sky130_fd_sc_hd__o21a_2 into sky130_fd_sc_hd__o21a_2.ext:
+Extracting sky130_fd_sc_hd__nor3_2 into sky130_fd_sc_hd__nor3_2.ext:
+Extracting sky130_fd_sc_hd__or2_2 into sky130_fd_sc_hd__or2_2.ext:
+Extracting sky130_fd_sc_hd__nand3b_2 into sky130_fd_sc_hd__nand3b_2.ext:
+Extracting sky130_fd_sc_hd__o211a_2 into sky130_fd_sc_hd__o211a_2.ext:
+Extracting sky130_fd_sc_hd__a21boi_1 into sky130_fd_sc_hd__a21boi_1.ext:
+Extracting sky130_fd_sc_hd__or3b_1 into sky130_fd_sc_hd__or3b_1.ext:
+Extracting sky130_fd_sc_hd__a31oi_4 into sky130_fd_sc_hd__a31oi_4.ext:
+Extracting sky130_fd_sc_hd__o31a_4 into sky130_fd_sc_hd__o31a_4.ext:
+Extracting sky130_fd_sc_hd__a2111o_1 into sky130_fd_sc_hd__a2111o_1.ext:
+Extracting sky130_fd_sc_hd__nand2_8 into sky130_fd_sc_hd__nand2_8.ext:
+Extracting sky130_fd_sc_hd__or2b_2 into sky130_fd_sc_hd__or2b_2.ext:
+Extracting sky130_fd_sc_hd__nand3b_4 into sky130_fd_sc_hd__nand3b_4.ext:
+Extracting sky130_fd_sc_hd__nand2_2 into sky130_fd_sc_hd__nand2_2.ext:
+Extracting sky130_fd_sc_hd__nor4_2 into sky130_fd_sc_hd__nor4_2.ext:
+Extracting sky130_fd_sc_hd__inv_6 into sky130_fd_sc_hd__inv_6.ext:
+Extracting sky130_fd_sc_hd__a221o_1 into sky130_fd_sc_hd__a221o_1.ext:
+Extracting sky130_fd_sc_hd__nor2_2 into sky130_fd_sc_hd__nor2_2.ext:
+Extracting sky130_fd_sc_hd__a221oi_2 into sky130_fd_sc_hd__a221oi_2.ext:
+Extracting sky130_fd_sc_hd__or3b_2 into sky130_fd_sc_hd__or3b_2.ext:
+Extracting sky130_fd_sc_hd__and4b_2 into sky130_fd_sc_hd__and4b_2.ext:
+Extracting sky130_fd_sc_hd__a22oi_4 into sky130_fd_sc_hd__a22oi_4.ext:
+Extracting sky130_fd_sc_hd__a22oi_2 into sky130_fd_sc_hd__a22oi_2.ext:
+Extracting sky130_fd_sc_hd__a211o_2 into sky130_fd_sc_hd__a211o_2.ext:
+Extracting sky130_fd_sc_hd__a2bb2oi_4 into sky130_fd_sc_hd__a2bb2oi_4.ext:
+Extracting sky130_fd_sc_hd__and2_2 into sky130_fd_sc_hd__and2_2.ext:
+Extracting sky130_fd_sc_hd__o21bai_4 into sky130_fd_sc_hd__o21bai_4.ext:
+Extracting sky130_fd_sc_hd__o21bai_2 into sky130_fd_sc_hd__o21bai_2.ext:
+Extracting sky130_fd_sc_hd__and4bb_1 into sky130_fd_sc_hd__and4bb_1.ext:
+Extracting sky130_fd_sc_hd__nand4b_4 into sky130_fd_sc_hd__nand4b_4.ext:
+Extracting sky130_fd_sc_hd__and4_2 into sky130_fd_sc_hd__and4_2.ext:
+Extracting sky130_fd_sc_hd__o22ai_4 into sky130_fd_sc_hd__o22ai_4.ext:
+Extracting sky130_fd_sc_hd__or4b_2 into sky130_fd_sc_hd__or4b_2.ext:
+Extracting sky130_fd_sc_hd__clkinv_4 into sky130_fd_sc_hd__clkinv_4.ext:
+Extracting sky130_fd_sc_hd__o31a_1 into sky130_fd_sc_hd__o31a_1.ext:
+Extracting sky130_fd_sc_hd__xor2_4 into sky130_fd_sc_hd__xor2_4.ext:
+Extracting sky130_fd_sc_hd__a21bo_1 into sky130_fd_sc_hd__a21bo_1.ext:
+Extracting sky130_fd_sc_hd__nor3_1 into sky130_fd_sc_hd__nor3_1.ext:
+Extracting sky130_fd_sc_hd__or4b_4 into sky130_fd_sc_hd__or4b_4.ext:
+Extracting sky130_fd_sc_hd__or4_4 into sky130_fd_sc_hd__or4_4.ext:
+Extracting sky130_fd_sc_hd__nand2_4 into sky130_fd_sc_hd__nand2_4.ext:
+Extracting sky130_fd_sc_hd__or4_1 into sky130_fd_sc_hd__or4_1.ext:
+Extracting sky130_fd_sc_hd__or4b_1 into sky130_fd_sc_hd__or4b_1.ext:
+Extracting sky130_fd_sc_hd__nor2b_2 into sky130_fd_sc_hd__nor2b_2.ext:
+Extracting sky130_fd_sc_hd__o2111ai_4 into sky130_fd_sc_hd__o2111ai_4.ext:
+Extracting sky130_fd_sc_hd__nand4_4 into sky130_fd_sc_hd__nand4_4.ext:
+Extracting sky130_fd_sc_hd__or4_2 into sky130_fd_sc_hd__or4_2.ext:
+Extracting sky130_fd_sc_hd__a21boi_2 into sky130_fd_sc_hd__a21boi_2.ext:
+Extracting sky130_fd_sc_hd__nor2_4 into sky130_fd_sc_hd__nor2_4.ext:
+Extracting sky130_fd_sc_hd__a21o_4 into sky130_fd_sc_hd__a21o_4.ext:
+Extracting sky130_fd_sc_hd__or4bb_2 into sky130_fd_sc_hd__or4bb_2.ext:
+Extracting sky130_fd_sc_hd__o31a_2 into sky130_fd_sc_hd__o31a_2.ext:
+Extracting sky130_fd_sc_hd__a31o_4 into sky130_fd_sc_hd__a31o_4.ext:
+Extracting sky130_fd_sc_hd__a311o_4 into sky130_fd_sc_hd__a311o_4.ext:
+Extracting sky130_fd_sc_hd__o2bb2ai_4 into sky130_fd_sc_hd__o2bb2ai_4.ext:
+Extracting sky130_fd_sc_hd__or3b_4 into sky130_fd_sc_hd__or3b_4.ext:
+Extracting sky130_fd_sc_hd__or4bb_4 into sky130_fd_sc_hd__or4bb_4.ext:
+Extracting sky130_fd_sc_hd__nor2_8 into sky130_fd_sc_hd__nor2_8.ext:
+Extracting sky130_fd_sc_hd__a21oi_4 into sky130_fd_sc_hd__a21oi_4.ext:
+Extracting sky130_fd_sc_hd__nor3b_4 into sky130_fd_sc_hd__nor3b_4.ext:
+Extracting sky130_fd_sc_hd__a221oi_4 into sky130_fd_sc_hd__a221oi_4.ext:
+Extracting sky130_fd_sc_hd__or3_4 into sky130_fd_sc_hd__or3_4.ext:
+Extracting sky130_fd_sc_hd__nor3b_2 into sky130_fd_sc_hd__nor3b_2.ext:
+Extracting sky130_fd_sc_hd__nor4b_4 into sky130_fd_sc_hd__nor4b_4.ext:
+Extracting sky130_fd_sc_hd__a22oi_1 into sky130_fd_sc_hd__a22oi_1.ext:
+Extracting sky130_fd_sc_hd__a31oi_2 into sky130_fd_sc_hd__a31oi_2.ext:
+Extracting sky130_fd_sc_hd__o32ai_4 into sky130_fd_sc_hd__o32ai_4.ext:
+Extracting sky130_fd_sc_hd__and4b_1 into sky130_fd_sc_hd__and4b_1.ext:
+Extracting sky130_fd_sc_hd__o32a_2 into sky130_fd_sc_hd__o32a_2.ext:
+Extracting sky130_fd_sc_hd__o2111a_1 into sky130_fd_sc_hd__o2111a_1.ext:
+Extracting sky130_fd_sc_hd__a41oi_2 into sky130_fd_sc_hd__a41oi_2.ext:
+Extracting sky130_fd_sc_hd__mux2_4 into sky130_fd_sc_hd__mux2_4.ext:
+Extracting sky130_fd_sc_hd__nor2b_4 into sky130_fd_sc_hd__nor2b_4.ext:
+Extracting sky130_fd_sc_hd__nand4b_1 into sky130_fd_sc_hd__nand4b_1.ext:
+Extracting sky130_fd_sc_hd__a2bb2oi_1 into sky130_fd_sc_hd__a2bb2oi_1.ext:
+Extracting sky130_fd_sc_hd__o21a_4 into sky130_fd_sc_hd__o21a_4.ext:
+Extracting sky130_fd_sc_hd__o32a_1 into sky130_fd_sc_hd__o32a_1.ext:
+Extracting sky130_fd_sc_hd__nor4_1 into sky130_fd_sc_hd__nor4_1.ext:
+Extracting sky130_fd_sc_hd__dfrtp_4 into sky130_fd_sc_hd__dfrtp_4.ext:
+Extracting sky130_fd_sc_hd__a211oi_4 into sky130_fd_sc_hd__a211oi_4.ext:
+Extracting sky130_fd_sc_hd__a21o_2 into sky130_fd_sc_hd__a21o_2.ext:
+Extracting sky130_fd_sc_hd__or2_4 into sky130_fd_sc_hd__or2_4.ext:
+Extracting sky130_fd_sc_hd__and3b_1 into sky130_fd_sc_hd__and3b_1.ext:
+Extracting sky130_fd_sc_hd__a311oi_4 into sky130_fd_sc_hd__a311oi_4.ext:
+Extracting sky130_fd_sc_hd__xnor2_4 into sky130_fd_sc_hd__xnor2_4.ext:
+Extracting sky130_fd_sc_hd__and3_4 into sky130_fd_sc_hd__and3_4.ext:
+Extracting sky130_fd_sc_hd__o221a_4 into sky130_fd_sc_hd__o221a_4.ext:
+Extracting sky130_fd_sc_hd__o2111a_4 into sky130_fd_sc_hd__o2111a_4.ext:
+Extracting sky130_fd_sc_hd__mux2_2 into sky130_fd_sc_hd__mux2_2.ext:
+Extracting sky130_fd_sc_hd__xor2_1 into sky130_fd_sc_hd__xor2_1.ext:
+Extracting sky130_fd_sc_hd__o22a_4 into sky130_fd_sc_hd__o22a_4.ext:
+Extracting sky130_fd_sc_hd__xnor2_1 into sky130_fd_sc_hd__xnor2_1.ext:
+Extracting sky130_fd_sc_hd__o2bb2a_4 into sky130_fd_sc_hd__o2bb2a_4.ext:
+Extracting sky130_fd_sc_hd__clkinv_8 into sky130_fd_sc_hd__clkinv_8.ext:
+Extracting sky130_fd_sc_hd__a2bb2o_4 into sky130_fd_sc_hd__a2bb2o_4.ext:
+Extracting sky130_fd_sc_hd__mux2_8 into sky130_fd_sc_hd__mux2_8.ext:
+Extracting sky130_fd_sc_hd__a2bb2oi_2 into sky130_fd_sc_hd__a2bb2oi_2.ext:
+Extracting sky130_fd_sc_hd__or4bb_1 into sky130_fd_sc_hd__or4bb_1.ext:
+Extracting sky130_fd_sc_hd__xnor2_2 into sky130_fd_sc_hd__xnor2_2.ext:
+Extracting sky130_fd_sc_hd__dfxtp_4 into sky130_fd_sc_hd__dfxtp_4.ext:
+Extracting sky130_fd_sc_hd__xor2_2 into sky130_fd_sc_hd__xor2_2.ext:
+Extracting sky130_fd_sc_hd__o31ai_4 into sky130_fd_sc_hd__o31ai_4.ext:
+Extracting top into top.ext:
+exttospice finished.

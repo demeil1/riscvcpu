@@ -1,0 +1,22 @@
+digraph "top" {
+label="top";
+rankdir="LR";
+remincross=true;
+n1 [ shape=octagon, label="Instr", color="black", fontcolor="black" ];
+n2 [ shape=octagon, label="PC", color="black", fontcolor="black" ];
+n3 [ shape=octagon, label="ReadData", color="black", fontcolor="black" ];
+n4 [ shape=octagon, label="MemWrite", color="black", fontcolor="black" ];
+n5 [ shape=octagon, label="DataAdr", color="black", fontcolor="black" ];
+n6 [ shape=octagon, label="WriteData", color="black", fontcolor="black" ];
+n7 [ shape=octagon, label="reset", color="black", fontcolor="black" ];
+n8 [ shape=octagon, label="clk", color="black", fontcolor="black" ];
+c17 [ shape=record, label="{{<p9> $1|<p10> $2|<p11> $3|<p12> $4|<p13> $5|<p14> $6|<p15> $7|<p16> $8}|rvsingle\nriscvsingle|{}}",  ];
+n1:e -> c17:p12:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n2:e -> c17:p11:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n3:e -> c17:p16:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n4:e -> c17:p13:w [color="black", fontcolor="black", label=""];
+n5:e -> c17:p14:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n6:e -> c17:p15:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n7:e -> c17:p10:w [color="black", fontcolor="black", label=""];
+n8:e -> c17:p9:w [color="black", fontcolor="black", label=""];
+}

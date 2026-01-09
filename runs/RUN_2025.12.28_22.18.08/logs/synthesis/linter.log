@@ -1,0 +1,23 @@
+%Warning-VARHIDDEN: /openlane/designs/riscvcpu/src/regfile.sv:7:16: Declaration of signal hides declaration in upper scope: 'rf'
+    7 |   logic [31:0] rf[31:0];
+      |                ^~
+                    /openlane/designs/riscvcpu/src/datapath.sv:25:17: ... Location of original declaration
+   25 |         regfile rf(clk, RegWrite, Instr[19:15], Instr[24:20],
+      |                 ^~
+                    ... For warning description see https://verilator.org/warn/VARHIDDEN?v=5.009
+                    ... Use "/* verilator lint_off VARHIDDEN */" and lint_on around source to disable this message.
+%Warning-IMPLICIT: /openlane/designs/riscvcpu/src/riscvsingle.sv:13:43: Signal definition not found, creating implicitly: 'PCSrc'
+   13 |                      ResultSrc, MemWrite, PCSrc,
+      |                                           ^~~~~
+%Warning-WIDTHEXPAND: /openlane/designs/riscvcpu/src/alu.sv:10:35: Operator ADD expects 32 bits on the RHS, but RHS's SEL generates 1 bits.
+                                                                 : ... In instance top.rvsingle.dp.alu
+   10 |         assign sum = a + condinvb + alucontrol[0];
+      |                                   ^
+%Warning-UNUSEDSIGNAL: /openlane/designs/riscvcpu/src/riscvsingle.sv:8:32: Signal is not used: 'Jump'
+                                                                         : ... In instance top.rvsingle
+    8 |  logic       ALUSrc, RegWrite, Jump, Zero;
+      |                                ^~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/riscvcpu/src/datapath.sv:9:37: Bits of signal are not used: 'Instr'[6:0]
+                                                                      : ... In instance top.rvsingle.dp
+    9 |                 input  logic [31:0] Instr,
+      |                                     ^~~~~

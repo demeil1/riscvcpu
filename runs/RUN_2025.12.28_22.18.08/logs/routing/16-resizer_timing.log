@@ -1,0 +1,94 @@
+OpenROAD 41a51eaf4ca2171c92ff38afb91eb37bbd3f36da 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO]: Reading ODB at '/openlane/designs/riscvcpu/runs/RUN_2025.12.28_22.18.08/tmp/14-top.odb'…
+define_corners Slowest Typical Fastest
+read_liberty -corner Slowest /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib
+read_liberty -corner Typical /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -corner Fastest /home/demeil/.ciel/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib
+Using 1e-12 for capacitance...
+Using 1e+03 for resistance...
+Using 1e-09 for time...
+Using 1e+00 for voltage...
+Using 1e-03 for current...
+Using 1e-09 for power...
+Using 1e-06 for distance...
+Reading design constraints file at '/openlane/designs/riscvcpu/runs/RUN_2025.12.28_22.18.08/tmp/14-top.sdc'…
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met3. 
+[INFO]: Setting signal max routing layer to: met4 and clock max routing layer to met4. 
+-congestion_iterations 50 -verbose -congestion_report_file /openlane/designs/riscvcpu/runs/RUN_2025.12.28_22.18.08/tmp/routing/resizer-routing-timing-congestion.rpt
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met4
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 0.6150
+[INFO GRT-0019] Found 165 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 17
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0004] Blockages: 18608
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal      96600         48029          50.28%
+met2       Vertical        72450         48124          33.58%
+met3       Horizontal      48300         33894          29.83%
+met4       Vertical        33810         19050          43.66%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 38895
+[INFO GRT-0198] Via related Steiner nodes: 2289
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 48042
+[INFO GRT-0112] Final usage 3D: 219010
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1             48029         25112           52.29%             0 /  0 /  0
+met2             48124         27742           57.65%             0 /  0 /  0
+met3             33894         13544           39.96%             0 /  0 /  0
+met4             19050          8486           44.55%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total           149097         74884           50.23%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 691324 um
+[INFO GRT-0014] Routed nets: 8340
+[INFO]: Setting RC values...
+[INFO RSZ-0033] No hold violations found.
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL          398874.4 u
+legalized HPWL         406162.8 u
+delta HPWL                    2 %
+
+[INFO DPL-0020] Mirrored 3411 instances
+[INFO DPL-0021] HPWL before          406162.8 u
+[INFO DPL-0022] HPWL after           398874.4 u
+[INFO DPL-0023] HPWL delta               -1.8 %
+Setting global connections for newly added cells…
+Writing OpenROAD database to '/openlane/designs/riscvcpu/runs/RUN_2025.12.28_22.18.08/tmp/16-top.odb'…
+Writing netlist to '/openlane/designs/riscvcpu/runs/RUN_2025.12.28_22.18.08/tmp/16-top.nl.v'…
+Writing powered netlist to '/openlane/designs/riscvcpu/runs/RUN_2025.12.28_22.18.08/tmp/16-top.pnl.v'…
+Writing layout to '/openlane/designs/riscvcpu/runs/RUN_2025.12.28_22.18.08/tmp/16-top.def'…
+Writing timing constraints to '/openlane/designs/riscvcpu/runs/RUN_2025.12.28_22.18.08/tmp/16-top.sdc'…
+area_report
+
+===========================================================================
+report_design_area
+============================================================================
+Design area 92765 u^2 42% utilization.
+area_report_end
